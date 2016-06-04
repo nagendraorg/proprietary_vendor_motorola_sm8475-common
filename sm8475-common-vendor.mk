@@ -400,7 +400,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgame_enhance \
     libgamepoweroptfeature \
-    libgdtap \
     libgpudataproducer \
     libgrpc++_unsecure_prebuilt \
     libgsl \
@@ -1036,7 +1035,6 @@ PRODUCT_PACKAGES += \
     vendor_modprobe \
     vppservice \
     xtra-daemon \
-    xtwifi-client \
     dpmd \
     qccsyshal@1.2-service \
     qspmsvc
