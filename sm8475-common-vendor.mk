@@ -987,7 +987,6 @@ PRODUCT_PACKAGES += \
     init.qti.qcv \
     init.qti.write \
     ipacm-diag \
-    irsc_util \
     ks \
     loadalgo \
     loc_launcher \
