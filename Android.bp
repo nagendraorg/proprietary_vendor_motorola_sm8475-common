@@ -20175,6 +20175,44 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "ssgtzd",
+    owner: "motorola",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/ssgtzd",
+            ],
+            shared_libs: [
+                "libqcbor",
+                "libminksocket_vendor",
+                "libminkdescriptor",
+                "liblog",
+                "libjsoncpp",
+                "libcrypto",
+                "libcutils",
+                "libQSEEComAPI",
+                "libcurl",
+                "libqmi_common_so",
+                "libqmi_csi",
+                "libqmi_cci",
+                "libdsi_netctrl",
+                "libqrtr",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "tftp_server",
     owner: "motorola",
     target: {
