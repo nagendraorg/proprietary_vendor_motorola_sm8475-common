@@ -18854,6 +18854,54 @@ cc_prebuilt_binary {
 }
 
 sh_binary {
+    name: "init.kernel.post_boot-cape",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-cape.sh",
+    filename: "init.kernel.post_boot-cape.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-diwali",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-diwali.sh",
+    filename: "init.kernel.post_boot-diwali.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-taro",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-taro.sh",
+    filename: "init.kernel.post_boot-taro.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot.sh",
+    filename: "init.kernel.post_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.sensors",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qcom.sensors.sh",
+    filename: "init.qcom.sensors.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.kernel",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qti.kernel.sh",
+    filename: "init.qti.kernel.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.qti.keymaster",
     owner: "motorola",
     src: "proprietary/vendor/bin/init.qti.keymaster.sh",
@@ -18866,6 +18914,14 @@ sh_binary {
     owner: "motorola",
     src: "proprietary/vendor/bin/init.qti.media.sh",
     filename: "init.qti.media.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.qcv",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qti.qcv.sh",
+    filename: "init.qti.qcv.sh",
     soc_specific: true,
 }
 
@@ -20261,6 +20317,14 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "vendor_modprobe",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/vendor_modprobe.sh",
+    filename: "vendor_modprobe.sh",
     soc_specific: true,
 }
 
