@@ -796,13 +796,14 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libadreno_app_profiles.so"],
+			shared_libs: ["libcutils", "libhardware", "libutils", "libhidlbase", "libhidlmemory", "android.hidl.memory@1.0", "vendor.qti.qspmhal@1.0-vendor", "libdl", "libz", "liblog", "libc++", "libc", "libm", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libadreno_app_profiles.so"],
+			shared_libs: ["libcutils", "libhardware", "libutils", "libhidlbase", "libhidlmemory", "android.hidl.memory@1.0", "vendor.qti.qspmhal@1.0-vendor", "libdl", "libz", "liblog", "libc++", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "both",
-	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -3756,7 +3757,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.qspmhal@1.0",
+	name: "vendor.qti.qspmhal@1.0-vendor",
+	stem: "vendor.qti.qspmhal@1.0",
 	owner: "motorola",
 	strip: {
 		none: true,
@@ -4572,7 +4574,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libapengine.so"],
-			shared_libs: ["liblog", "libcutils", "liblearningmodule", "libmeters-ns", "liblmutils-ns", "libsqlite", "libqti-perfd-client", "vendor.display.config@1.0", "libhwbinder", "libhidlbase", "libutils", "libtinyxml2", "libperfconfig", "libthermalclient", "liblmthermallistner", "libqti-perfd", "android.hardware.thermal@2.0", "android.hidl.allocator@1.0", "vendor.qti.qspmhal@1.0", "android.hidl.memory@1.0", "libhidlmemory", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "liblearningmodule", "libmeters-ns", "liblmutils-ns", "libsqlite", "libqti-perfd-client", "vendor.display.config@1.0", "libhwbinder", "libhidlbase", "libutils", "libtinyxml2", "libperfconfig", "libthermalclient", "liblmthermallistner", "libqti-perfd", "android.hardware.thermal@2.0", "android.hidl.allocator@1.0", "vendor.qti.qspmhal@1.0-vendor", "android.hidl.memory@1.0", "libhidlmemory", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10012,7 +10014,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so"],
-			shared_libs: ["libutils", "vendor.qti.qspmhal@1.0", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libhidlbase", "libhidlmemory", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "vendor.qti.qspmhal@1.0-vendor", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libhidlbase", "libhidlmemory", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -11258,8 +11260,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.qspmhal@1.0-se",
-	stem: "vendor.qti.qspmhal@1.0",
+	name: "vendor.qti.qspmhal@1.0",
 	owner: "motorola",
 	strip: {
 		none: true,
@@ -13204,7 +13205,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service"],
-			shared_libs: ["vendor.qti.qspmhal@1.0", "vendor.qti.qspmhal@1.0-impl", "libhidlbase", "liblog", "libutils", "libavservices_minijail", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.qti.qspmhal@1.0-vendor", "vendor.qti.qspmhal@1.0-impl", "libhidlbase", "liblog", "libutils", "libavservices_minijail", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -13306,10 +13307,10 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/bin/qspmsvc"],
+			shared_libs: ["liblog", "libutils", "libcutils", "libbinder_ndk", "libbinder", "libbase", "vendor.qti.qspmhal@1.0", "vendor.qti.qspmhal-V1-ndk", "android.hardware.thermal@1.0", "android.hardware.thermal@2.0", "android.hidl.memory@1.0", "libhidlmemory", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	strip: {
 		none: true,
 	},

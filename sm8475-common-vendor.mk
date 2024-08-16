@@ -445,7 +445,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@2.0 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.qspmhal@1.0 \
+    vendor.qti.qspmhal@1.0-vendor \
     vendor.qti.spu@1.0 \
     vendor.qti.spu@1.1 \
     vendor.qti.spu@2.0 \
@@ -922,7 +922,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-se \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qspmhal-V1-ndk \
-    vendor.qti.qspmhal@1.0-se \
+    vendor.qti.qspmhal@1.0 \
     CACertService \
     CneApp \
     IWlanService \
