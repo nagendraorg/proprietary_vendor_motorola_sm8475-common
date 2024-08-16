@@ -805,7 +805,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce@1.1 \
     vendor.qti.ims.rcsuce@1.2 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.qesdhal@1.0 \
@@ -920,7 +920,7 @@ PRODUCT_PACKAGES += \
     libimsmedia_jni \
     libqspmsvc \
     vendor.qti.ImsRtpService-V1-ndk \
-    vendor.qti.imsrtpservice@3.0-se \
+    vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal@1.0 \
