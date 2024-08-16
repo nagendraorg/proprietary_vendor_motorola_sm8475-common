@@ -338,6 +338,7 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgamepoweroptfeature \
     libgpudataproducer \
+    libgrpc++_unsecure_prebuilt \
     libgsl \
     libidl \
     libkcl \
