@@ -452,7 +452,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.spu@2.0 \
     libeai_fixed_32 \
     libmmieffectswrapper \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0-vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
@@ -906,7 +906,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.1 \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
     vendor.qti.hardware.qccsyshal@1.2 \
-    com.qualcomm.qti.dpm.api@1.0-se \
+    com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
