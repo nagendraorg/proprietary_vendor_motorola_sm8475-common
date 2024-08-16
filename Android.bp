@@ -3377,7 +3377,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.diaghal@1.0",
+	name: "vendor.qti.diaghal@1.0-vendor",
+	stem: "vendor.qti.diaghal@1.0",
 	owner: "motorola",
 	strip: {
 		none: true,
@@ -10885,8 +10886,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.diaghal@1.0-se",
-	stem: "vendor.qti.diaghal@1.0",
+	name: "vendor.qti.diaghal@1.0",
 	owner: "motorola",
 	strip: {
 		none: true,
@@ -11085,10 +11085,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libdiag_system.so"],
+			shared_libs: ["vendor.qti.diaghal@1.0", "libhidlbase", "liblog", "libutils", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libhidlmemory", "libc", "libcutils", "libc++", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11102,10 +11102,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libdpmctmgr.so"],
+			shared_libs: ["libdiag_system", "libbinder", "libcutils", "libutils", "libdpmframework", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11119,10 +11119,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libdpmfdmgr.so"],
+			shared_libs: ["libdiag_system", "libbinder", "libcutils", "libutils", "libdpmframework", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11136,10 +11136,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libdpmframework.so"],
+			shared_libs: ["libdiag_system", "libbinder", "libcutils", "libutils", "liblog", "libhidlbase", "libhardware", "libhardware_legacy", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11153,10 +11153,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libdpmtcm.so"],
+			shared_libs: ["libdiag_system", "libbinder", "libcutils", "libutils", "libdpmframework", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -11842,7 +11842,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/diag-router"],
-			shared_libs: ["libhidlbase", "libutils", "libcutils", "libqsocket", "libqrtr", "liblog", "vendor.qti.diaghal@1.0", "libhidlmemory", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "libcutils", "libqsocket", "libqrtr", "liblog", "vendor.qti.diaghal@1.0-vendor", "libhidlmemory", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -13294,10 +13294,10 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/bin/dpmd"],
+			shared_libs: ["libdpmframework", "libdiag_system", "libhardware_legacy", "libhidlbase", "libcutils", "libutils", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	strip: {
 		none: true,
 	},

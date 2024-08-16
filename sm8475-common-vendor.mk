@@ -427,7 +427,7 @@ PRODUCT_PACKAGES += \
     libswdap \
     libswgamedap \
     vendor.dolby.hardware.dms@2.0 \
-    vendor.qti.diaghal@1.0 \
+    vendor.qti.diaghal@1.0-vendor \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0 \
@@ -901,7 +901,7 @@ PRODUCT_PACKAGES += \
     libmmosal \
     libmmparser_lite \
     libqcc_file_agent_sys \
-    vendor.qti.diaghal@1.0-se \
+    vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qccsyshal@1.1 \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
