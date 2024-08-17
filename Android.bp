@@ -4784,7 +4784,24 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_soft_ac4dec.so"],
-			shared_libs: ["libdeccfg", "libhidlbase", "vendor.dolby.hardware.dms@2.0", "libbase", "libcodec2", "libcodec2_vndk", "libutils", "libcodec2_soft_common", "libcutils", "liblog", "libsfplugin_ccodec_utils", "libstagefright_foundation", "libcodec2_store_dolby", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libdeccfg", "libhidlbase", "vendor.dolby.hardware.dms@2.0", "libbase", "libcodec2", "libcodec2_vndk", "libutils", "libcodec2_soft_common_prebuilt", "libcutils", "liblog", "libsfplugin_ccodec_utils", "libstagefright_foundation", "libcodec2_store_dolby", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcodec2_soft_common_prebuilt",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libcodec2_soft_common_prebuilt.so"],
+			shared_libs: ["libbase", "libcodec2", "libcodec2_vndk", "libutils", "libcutils", "liblog", "libsfplugin_ccodec_utils", "libstagefright_foundation", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4801,7 +4818,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcodec2_soft_ddpdec.so"],
-			shared_libs: ["libdeccfg", "libhidlbase", "vendor.dolby.hardware.dms@2.0", "libbase", "libcodec2", "libcodec2_vndk", "libutils", "libcodec2_soft_common", "libcutils", "liblog", "libsfplugin_ccodec_utils", "libstagefright_foundation", "libcodec2_store_dolby", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libdeccfg", "libhidlbase", "vendor.dolby.hardware.dms@2.0", "libbase", "libcodec2", "libcodec2_vndk", "libutils", "libcodec2_soft_common_prebuilt", "libcutils", "liblog", "libsfplugin_ccodec_utils", "libstagefright_foundation", "libcodec2_store_dolby", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
