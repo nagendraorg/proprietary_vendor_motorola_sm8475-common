@@ -4176,7 +4176,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqc2audio_hwaudiocodec.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libqc2audio_base", "libqc2audio_platform", "libqc2audio_utils", "libqc2audio_basecodec", "libcodec2_vndk", "libstagefright_foundation", "libpalclient", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "libcutils", "liblog", "libqc2audio_base", "libqc2audio_platform", "libqc2audio_utils", "libqc2audio_basecodec", "libcodec2_vndk", "libstagefright_foundation", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
