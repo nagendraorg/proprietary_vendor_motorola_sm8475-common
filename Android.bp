@@ -1878,7 +1878,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
-			shared_libs: ["libar-gsl", "liblog", "libexpat", "liblx-osal", "libaudioroute", "libcutils", "libagmclient", "libtinyalsa", "libtinycompress", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libar-gsl", "liblog", "libexpat", "liblx-osal", "libaudioroute", "libcutils", "libtinyalsa", "libtinycompress", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
