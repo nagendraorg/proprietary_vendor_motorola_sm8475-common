@@ -279,7 +279,6 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libadreno_app_profiles \
     libadreno_utils \
-    libar-pal \
     libcdsp_default_listener \
     libcdsprpc \
     libcv_common \
@@ -370,6 +369,7 @@ PRODUCT_PACKAGES += \
     libar-acdb \
     libar-gpr \
     libar-gsl \
+    libar-pal \
     libats \
     libaualgo_foundation \
     libaudio_log_utils \
