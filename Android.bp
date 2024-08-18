@@ -838,7 +838,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.primary.taro-moto.so"],
-			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libtinyalsa", "libar-pal", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libhidlmemory", "vendor.qti.hardware.pal@1.0-impl", "vendor.qti.hardware.pal@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libtinyalsa", "libar-pal", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libhidlmemory", "vendor.qti.hardware.pal@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
