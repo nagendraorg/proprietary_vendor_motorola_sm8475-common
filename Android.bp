@@ -3632,7 +3632,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmotext_inf.so"],
-			shared_libs: ["libcutils", "libmdmcutback", "liblog", "libsysutils", "libril", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libmdmcutback", "liblog", "libsysutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
