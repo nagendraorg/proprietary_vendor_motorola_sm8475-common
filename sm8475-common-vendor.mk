@@ -279,9 +279,6 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libadreno_app_profiles \
     libadreno_utils \
-    libcdsp_default_listener \
-    libcdsprpc \
-    libcv_common \
     libgpudataproducer \
     libgsl \
     libkcl \
@@ -289,8 +286,6 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    libmdsprpc \
-    libsdsprpc \
     libvmmem \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.qspmhal@1.0-impl \
@@ -383,6 +378,8 @@ PRODUCT_PACKAGES += \
     libcapiv2uvvendor \
     libcdfw \
     libcdfw_remote_api \
+    libcdsp_default_listener \
+    libcdsprpc \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -394,6 +391,7 @@ PRODUCT_PACKAGES += \
     libcolor-default \
     libconfigdb \
     libcpion \
+    libcv_common \
     libcvp2_1 \
     libdapparamstorage \
     libdataitems \
@@ -465,6 +463,7 @@ PRODUCT_PACKAGES += \
     libmdmcutback \
     libmdmdetect \
     libmdmimgload \
+    libmdsprpc \
     libmemperfd \
     libmemutils \
     libmeters-ns \
@@ -589,6 +588,7 @@ PRODUCT_PACKAGES += \
     libsdm-colormgr-algo \
     libsdm-disp-vndapis \
     libsdmextension \
+    libsdsprpc \
     libsensorcal \
     libsensorslog \
     libshsc \
