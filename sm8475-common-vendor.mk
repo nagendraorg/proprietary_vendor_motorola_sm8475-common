@@ -302,7 +302,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     audio.bluetooth_qti.default \
     audio.primary.taro-moto \
-    com.dsi.ant@1.0-impl \
     sound_trigger.primary.taro \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -872,7 +871,6 @@ PRODUCT_PACKAGES += \
     libvpp_vqa_networks \
     libvpt_action_recognition \
     libworker_pool \
-    com.qualcomm.qti.ant@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
