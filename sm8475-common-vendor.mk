@@ -851,17 +851,12 @@ PRODUCT_PACKAGES += \
     libcvpdsp_2_1 \
     libdspCV_skel \
     libdsp_streamer_binning \
-    libdsp_streamer_qvrcam_receiver \
     libevadsp_3_0 \
-    libeye_tracking_dsp_sample_skel \
     libfastcvadsp \
     libfastcvdsp_skel \
     libhalide_hexagon_remote_skel \
     libmobilenet_dsp_frc \
     libmobilenet_dsp_frc_networks \
-    libqvr_3dof_tracker_skel \
-    libqvr_cam_dsp_driver_skel \
-    libqvr_dsp_driver_skel \
     libscveT2T_skel \
     libsnpe_dsp_v65_domains_v2_skel \
     libsnpe_dsp_v66_domains_v2_skel \

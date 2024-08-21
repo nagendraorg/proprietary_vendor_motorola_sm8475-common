@@ -9594,28 +9594,10 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-	name: "libdsp_streamer_qvrcam_receiver",
-	filename: "libdsp_streamer_qvrcam_receiver.so",
-	owner: "motorola",
-	src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so",
-	relative_install_path: "adsp",
-	soc_specific: true,
-}
-
-prebuilt_rfsa {
 	name: "libevadsp_3_0",
 	filename: "libevadsp_3_0.so",
 	owner: "motorola",
 	src: "proprietary/vendor/lib/rfsa/adsp/libevadsp_3_0.so",
-	relative_install_path: "adsp",
-	soc_specific: true,
-}
-
-prebuilt_rfsa {
-	name: "libeye_tracking_dsp_sample_skel",
-	filename: "libeye_tracking_dsp_sample_skel.so",
-	owner: "motorola",
-	src: "proprietary/vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
 }
@@ -9661,33 +9643,6 @@ prebuilt_rfsa {
 	filename: "libmobilenet_dsp_frc_networks.so",
 	owner: "motorola",
 	src: "proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so",
-	relative_install_path: "adsp",
-	soc_specific: true,
-}
-
-prebuilt_rfsa {
-	name: "libqvr_3dof_tracker_skel",
-	filename: "libqvr_3dof_tracker_skel.so",
-	owner: "motorola",
-	src: "proprietary/vendor/lib/rfsa/adsp/libqvr_3dof_tracker_skel.so",
-	relative_install_path: "adsp",
-	soc_specific: true,
-}
-
-prebuilt_rfsa {
-	name: "libqvr_cam_dsp_driver_skel",
-	filename: "libqvr_cam_dsp_driver_skel.so",
-	owner: "motorola",
-	src: "proprietary/vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so",
-	relative_install_path: "adsp",
-	soc_specific: true,
-}
-
-prebuilt_rfsa {
-	name: "libqvr_dsp_driver_skel",
-	filename: "libqvr_dsp_driver_skel.so",
-	owner: "motorola",
-	src: "proprietary/vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so",
 	relative_install_path: "adsp",
 	soc_specific: true,
 }
