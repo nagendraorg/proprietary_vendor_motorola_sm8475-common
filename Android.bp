@@ -466,7 +466,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidlmemory",
                 "android.hidl.memory@1.0",
-                "vendor.qti.qspmhal@1.0-vendor",
+                "vendor.qti.qspmhal@1.0_vendor",
                 "libdl",
                 "libz",
                 "liblog",
@@ -486,7 +486,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidlmemory",
                 "android.hidl.memory@1.0",
-                "vendor.qti.qspmhal@1.0-vendor",
+                "vendor.qti.qspmhal@1.0_vendor",
                 "libdl",
                 "libz",
                 "liblog",
@@ -900,7 +900,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libutils",
-                "vendor.qti.qspmhal@1.0-vendor",
+                "vendor.qti.qspmhal@1.0_vendor",
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
                 "libhidlbase",
@@ -919,7 +919,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libutils",
-                "vendor.qti.qspmhal@1.0-vendor",
+                "vendor.qti.qspmhal@1.0_vendor",
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
                 "libhidlbase",
@@ -939,7 +939,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.qspmhal@1.0-vendor",
+    name: "vendor.qti.qspmhal@1.0_vendor",
     stem: "vendor.qti.qspmhal@1.0",
     owner: "motorola",
     strip: {
@@ -1017,7 +1017,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.dpm.api@1.0-vendor",
+    name: "com.qualcomm.qti.dpm.api@1.0_vendor",
     stem: "com.qualcomm.qti.dpm.api@1.0",
     owner: "motorola",
     strip: {
@@ -2274,7 +2274,7 @@ cc_prebuilt_library_shared {
                 "librcc",
                 "libion",
                 "libhidlbase",
-                "vendor.qti.imsrtpservice@3.0-vendor",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "vendor.qti.imsrtpservice@3.0-service-Impl",
                 "libdiag",
                 "libcutils",
@@ -3151,7 +3151,7 @@ cc_prebuilt_library_shared {
                 "libqti-perfd",
                 "android.hardware.thermal@2.0",
                 "android.hidl.allocator@1.0",
-                "vendor.qti.qspmhal@1.0-vendor",
+                "vendor.qti.qspmhal@1.0_vendor",
                 "android.hidl.memory@1.0",
                 "libhidlmemory",
                 "libc++",
@@ -4231,7 +4231,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libhardware_legacy",
                 "libhardware",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -7520,8 +7520,8 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libfmq",
                 "libhidlbase",
-                "vendor.qti.hardware.qccsyshal@1.0-vendor",
-                "vendor.qti.hardware.qccsyshal@1.1-vendor",
+                "vendor.qti.hardware.qccsyshal@1.0_vendor",
+                "vendor.qti.hardware.qccsyshal@1.1_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -12159,7 +12159,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "vendor.libdpmframework",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "vendor.qti.hardware.dpmservice@1.0",
                 "vendor.qti.hardware.dpmservice@1.1",
                 "libc++",
@@ -12191,7 +12191,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "vendor.libdpmframework",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "vendor.qti.hardware.dpmservice@1.0",
                 "libc++",
                 "libc",
@@ -12226,7 +12226,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhardware",
                 "libhardware_legacy",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "vendor.qti.hardware.dpmservice@1.0",
                 "vendor.qti.hardware.dpmservice@1.1",
                 "libc++",
@@ -12261,7 +12261,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libhardware_legacy",
                 "vendor.libdpmframework",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "vendor.qti.hardware.dpmservice@1.0",
                 "libc++",
                 "libc",
@@ -12296,7 +12296,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhardware",
                 "libhardware_legacy",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "vendor.qti.hardware.dpmservice@1.0",
                 "vendor.qti.hardware.mwqemadapter@1.0",
                 "libc++",
@@ -12614,7 +12614,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.diaghal@1.0-vendor",
+    name: "vendor.qti.diaghal@1.0_vendor",
     stem: "vendor.qti.diaghal@1.0",
     owner: "motorola",
     strip: {
@@ -13744,7 +13744,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qccsyshal@1.0-vendor",
+    name: "vendor.qti.hardware.qccsyshal@1.0_vendor",
     stem: "vendor.qti.hardware.qccsyshal@1.0",
     owner: "motorola",
     strip: {
@@ -13773,7 +13773,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qccsyshal@1.1-vendor",
+    name: "vendor.qti.hardware.qccsyshal@1.1_vendor",
     stem: "vendor.qti.hardware.qccsyshal@1.1",
     owner: "motorola",
     strip: {
@@ -13785,7 +13785,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so",
             ],
             shared_libs: [
-                "vendor.qti.hardware.qccsyshal@1.0-vendor",
+                "vendor.qti.hardware.qccsyshal@1.0_vendor",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -15880,7 +15880,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libhidlbase",
                 "libdiag",
-                "vendor.qti.imsrtpservice@3.0-vendor",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -15894,7 +15894,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@3.0-vendor",
+    name: "vendor.qti.imsrtpservice@3.0_vendor",
     stem: "vendor.qti.imsrtpservice@3.0",
     owner: "motorola",
     strip: {
@@ -18415,7 +18415,7 @@ cc_prebuilt_binary {
                 "libqsocket",
                 "libqrtr",
                 "liblog",
-                "vendor.qti.diaghal@1.0-vendor",
+                "vendor.qti.diaghal@1.0_vendor",
                 "libhidlmemory",
                 "android.hidl.allocator@1.0",
                 "android.hidl.memory@1.0",
@@ -18454,7 +18454,7 @@ cc_prebuilt_binary {
                 "libqmi_client_helper",
                 "libqmiservices",
                 "libdpmqmihal",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -19442,7 +19442,7 @@ cc_prebuilt_binary {
                 "libqmiservices",
                 "libqmi_csi",
                 "libqmi_cci",
-                "vendor.qti.imsrtpservice@3.0-vendor",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "vendor.qti.imsrtpservice@3.0-service-Impl",
                 "libutils",
                 "libhidlbase",
@@ -20146,7 +20146,7 @@ cc_prebuilt_binary {
                 "libnl",
                 "libfmq",
                 "libhidlbase",
-                "vendor.qti.hardware.qccsyshal@1.1-vendor",
+                "vendor.qti.hardware.qccsyshal@1.1_vendor",
                 "libz",
                 "libbinder",
                 "libbase",
@@ -20827,7 +20827,7 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "libcutils",
                 "libutils",
-                "com.qualcomm.qti.dpm.api@1.0-vendor",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "vendor.qti.hardware.dpmservice@1.0",
                 "vendor.qti.hardware.dpmservice@1.1",
                 "libc++",
@@ -20884,7 +20884,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service",
             ],
             shared_libs: [
-                "vendor.qti.qspmhal@1.0-vendor",
+                "vendor.qti.qspmhal@1.0_vendor",
                 "vendor.qti.qspmhal@1.0-impl",
                 "libhidlbase",
                 "liblog",
