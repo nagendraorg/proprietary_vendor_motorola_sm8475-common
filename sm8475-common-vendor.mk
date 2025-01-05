@@ -329,10 +329,7 @@ PRODUCT_PACKAGES += \
     lib-rtpcommon \
     lib-rtpcore \
     lib-rtpsl \
-    libAlacSwDec \
-    libApeSwDec \
     libEvrcSwCodec \
-    libFlacSwDec \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
