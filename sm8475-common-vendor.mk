@@ -300,8 +300,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.taro-moto \
-    sound_trigger.primary.taro \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
@@ -342,22 +340,13 @@ PRODUCT_PACKAGES += \
     libQnnHtpPrepare \
     libQnnHtpV69Stub \
     libQtiRilLoadable \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     libadaptlaunch \
     libadm \
     libadropbox \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
-    libats \
     libaualgo_foundation \
     libaudio_log_utils \
     libbacklight-calib \
@@ -442,8 +431,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmcs \
     libmdmcutback \
     libmdmdetect \
@@ -664,9 +651,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-V5-ndk_platform \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
