@@ -284,7 +284,6 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libllvm-qgl \
     libvmmem \
-    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.qspmhal@1.0-impl \
     vendor.qti.qspmhal@1.0_vendor \
     btaudio_offload_if \
@@ -692,6 +691,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.dpmservice@1.0 \
     vendor.qti.hardware.dpmservice@1.1 \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.eid@1.0 \
     vendor.qti.hardware.embmssl@1.0 \
     vendor.qti.hardware.embmssl@1.1 \
