@@ -340,6 +340,7 @@ PRODUCT_PACKAGES += \
     libQnnHtpPrepare \
     libQnnHtpV69Stub \
     libQtiRilLoadable \
+    libaacvibrator \
     libadaptlaunch \
     libadm \
     libadropbox \
