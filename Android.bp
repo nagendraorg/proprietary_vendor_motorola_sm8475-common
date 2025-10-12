@@ -16526,6 +16526,8 @@ cc_prebuilt_library_shared {
                 "libhidlmemory",
                 "libc",
                 "libcutils",
+                "libbinder_ndk",
+                "vendor.qti.diaghal-V1-ndk",
                 "libc++",
                 "libm",
                 "libdl",
@@ -16838,6 +16840,32 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.diaghal-V1-ndk",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/vendor.qti.diaghal-V1-ndk.so",
             ],
             shared_libs: [
                 "libbinder_ndk",
@@ -17185,9 +17213,9 @@ android_app_import {
 }
 
 android_app_import {
-    name: "QtiTelephony",
+    name: "QtiTelephonyService",
     owner: "motorola",
-    apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
+    apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
@@ -17196,13 +17224,14 @@ android_app_import {
 }
 
 android_app_import {
-    name: "QtiTelephonyService",
+    name: "QtiTelephony",
     owner: "motorola",
-    apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+    apk: "proprietary/system_ext/priv-app/QtiTelephony/QtiTelephony.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
+    privileged: true,
     system_ext_specific: true,
 }
 
@@ -19687,6 +19716,9 @@ cc_prebuilt_binary {
                 "libqmiservices",
                 "libqmimotext",
                 "libmdmcutback",
+                "libdiag",
+                "liblog",
+                "libsqlite",
                 "liblog_vendor",
                 "libutils",
                 "libadropbox",
@@ -20487,6 +20519,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "libfmq",
                 "libbinder",
+                "libcutils",
                 "liblog",
                 "vendor.qti.hardware.qccsyshal@1.2-halimpl",
                 "vendor.qti.hardware.qccsyshal@1.2",
@@ -20662,7 +20695,16 @@ filegroup {
         "proprietary/vendor/etc/qcril_database/upgrade/ecc/44_version_qcrildb.sql",
         "proprietary/vendor/etc/qcril_database/upgrade/ecc/45_version_qcrildb.sql",
         "proprietary/vendor/etc/qcril_database/upgrade/ecc/46_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/48_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/49_version_qcrildb.sql",
         "proprietary/vendor/etc/qcril_database/upgrade/ecc/4_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/50_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/51_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/52_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/53_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/54_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/55_version_qcrildb.sql",
+        "proprietary/vendor/etc/qcril_database/upgrade/ecc/56_version_qcrildb.sql",
         "proprietary/vendor/etc/qcril_database/upgrade/ecc/5_version_qcrildb.sql",
         "proprietary/vendor/etc/qcril_database/upgrade/ecc/6_version_qcrildb.sql",
         "proprietary/vendor/etc/qcril_database/upgrade/ecc/7_version_qcrildb.sql",

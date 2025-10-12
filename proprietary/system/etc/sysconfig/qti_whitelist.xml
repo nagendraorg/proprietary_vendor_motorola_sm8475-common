@@ -112,5 +112,6 @@
     <hidden-api-whitelisted-app package="com.qualcomm.qti.server.wigigapp" />
     <!-- These are location components that need to freely run in the background -->
     <allow-in-power-save package="com.qualcomm.location" />
+    <allow-in-data-usage-save package="com.qualcomm.location" /> <!-- IKSWV-59757,e7976c -->
     <hidden-api-whitelisted-app package="com.qti.service.colorservice" />
 </config>
