@@ -499,6 +499,7 @@ PRODUCT_PACKAGES += \
     libqc2vppfilter \
     libqcbor \
     libqcc_file_agent \
+    libqcci_legacy \
     libqcmaputils \
     libqcodec2_base \
     libqcodec2_basecodec \
@@ -540,10 +541,13 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libqmi_common_so \
     libqmi_csi \
+    libqmi_csvt_srvc \
     libqmi_encdec \
     libqmi_legacy \
+    libqmiextservices \
     libqmimotext \
     libqmiservices \
+    libqms_client \
     libqppe \
     libqrtr \
     libqrtrclient \
@@ -583,6 +587,7 @@ PRODUCT_PACKAGES += \
     libsilkyscrolls \
     libskewknob \
     libslimclient \
+    libsmemlog \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsns_device_mode_stub \
