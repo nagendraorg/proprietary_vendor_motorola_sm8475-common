@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/init/qspmsvc.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspmsvc.rc \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
+    vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.qcc.vendor_qcc.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/moto-telephony.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/moto-telephony.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -401,6 +402,9 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgame_enhance \
     libgamepoweroptfeature \
+    libgarden \
+    libgarden_haltests_e2e \
+    libgdtap \
     libgpudataproducer \
     libgrpc++_unsecure_prebuilt \
     libgsl \
@@ -546,7 +550,6 @@ PRODUCT_PACKAGES += \
     libqmimotext \
     libqmiservices \
     libqms_client \
-    libqppe \
     libqrtr \
     libqrtrclient \
     libqseed3 \
@@ -601,6 +604,7 @@ PRODUCT_PACKAGES += \
     libssd \
     libstandbyfeature \
     libsubsystem_control \
+    libsynergy_loc_api \
     libsys_info_cache \
     libsystem_health_mon \
     libtestutils \
@@ -667,7 +671,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal@1.0_vendor \
-    vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-V5-ndk_platform \
     vendor.qti.gnss-service \
     vendor.qti.hardware.alarm@1.0 \
@@ -706,7 +709,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
-    vendor.qti.hardware.qccvndhal@1.0 \
+    vendor.qti.hardware.qccvndhal@1.0_vendor \
     vendor.qti.hardware.qconfig@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
@@ -881,7 +884,10 @@ PRODUCT_PACKAGES += \
     libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
+    libqcc \
     libqcc_file_agent_sys \
+    libqccdme \
+    libqccfileservice \
     libqspmsvc \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.diaghal-V1-ndk \
@@ -890,8 +896,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.1 \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
     vendor.qti.hardware.qccsyshal@1.2 \
+    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
+    vendor.qti.qccsyshal_aidl-V1-ndk \
+    vendor.qti.qccvndhal_aidl-V1-ndk \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal@1.0 \
     CACertService \
@@ -901,6 +910,7 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     EuiccGoogle \
     ImsRcsService \
+    QCC \
     QtiTelephonyService \
     QtiTelephony \
     dpmserviceapp \
@@ -954,6 +964,7 @@ PRODUCT_PACKAGES += \
     edgnss-daemon \
     embmsslServer \
     engine-service \
+    garden_app \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.gatekeeper@1.0-service-qti \
