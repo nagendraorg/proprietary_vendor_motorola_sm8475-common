@@ -157,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/lm/sPLHFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/sPLHFeature.xml \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/media_codecs_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/media_codecs_performance_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cape.xml \
@@ -247,6 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qcril_database/upgrade/other/6_version_change_property_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/6_version_change_property_table_qcrilnr.sql \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm.policy \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
