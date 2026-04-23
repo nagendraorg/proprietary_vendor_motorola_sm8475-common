@@ -1007,7 +1007,6 @@ PRODUCT_PACKAGES += \
     loadalgo \
     loc_launcher \
     lowi-server \
-    mbm_spy \
     mlid \
     motobox \
     msm_irqbalance \
