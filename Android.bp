@@ -15661,7 +15661,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "bm2n00",
+    name: "vendor_lib_rfsa_adsp_bm2n00_bin",
     filename: "bm2n00.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n00.bin",
@@ -15670,7 +15670,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n01",
+    name: "vendor_lib_rfsa_adsp_bm2n01_bin",
     filename: "bm2n01.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n01.bin",
@@ -15679,7 +15679,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n02",
+    name: "vendor_lib_rfsa_adsp_bm2n02_bin",
     filename: "bm2n02.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n02.bin",
@@ -15688,7 +15688,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n03",
+    name: "vendor_lib_rfsa_adsp_bm2n03_bin",
     filename: "bm2n03.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n03.bin",
@@ -15697,7 +15697,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n04",
+    name: "vendor_lib_rfsa_adsp_bm2n04_bin",
     filename: "bm2n04.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n04.bin",
@@ -15706,7 +15706,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n05",
+    name: "vendor_lib_rfsa_adsp_bm2n05_bin",
     filename: "bm2n05.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n05.bin",
@@ -15715,7 +15715,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n06",
+    name: "vendor_lib_rfsa_adsp_bm2n06_bin",
     filename: "bm2n06.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n06.bin",
@@ -15724,7 +15724,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n07",
+    name: "vendor_lib_rfsa_adsp_bm2n07_bin",
     filename: "bm2n07.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n07.bin",
@@ -15733,7 +15733,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n10",
+    name: "vendor_lib_rfsa_adsp_bm2n10_bin",
     filename: "bm2n10.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n10.bin",
@@ -15742,7 +15742,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n11",
+    name: "vendor_lib_rfsa_adsp_bm2n11_bin",
     filename: "bm2n11.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n11.bin",
@@ -15751,7 +15751,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n12",
+    name: "vendor_lib_rfsa_adsp_bm2n12_bin",
     filename: "bm2n12.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n12.bin",
@@ -15760,7 +15760,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n13",
+    name: "vendor_lib_rfsa_adsp_bm2n13_bin",
     filename: "bm2n13.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n13.bin",
@@ -15769,7 +15769,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n14",
+    name: "vendor_lib_rfsa_adsp_bm2n14_bin",
     filename: "bm2n14.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n14.bin",
@@ -15778,7 +15778,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n15",
+    name: "vendor_lib_rfsa_adsp_bm2n15_bin",
     filename: "bm2n15.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n15.bin",
@@ -15787,7 +15787,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n16",
+    name: "vendor_lib_rfsa_adsp_bm2n16_bin",
     filename: "bm2n16.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n16.bin",
@@ -15796,7 +15796,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n17",
+    name: "vendor_lib_rfsa_adsp_bm2n17_bin",
     filename: "bm2n17.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n17.bin",
@@ -15805,7 +15805,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n18",
+    name: "vendor_lib_rfsa_adsp_bm2n18_bin",
     filename: "bm2n18.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n18.bin",
@@ -15814,7 +15814,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n19",
+    name: "vendor_lib_rfsa_adsp_bm2n19_bin",
     filename: "bm2n19.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n19.bin",
@@ -15823,7 +15823,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n20",
+    name: "vendor_lib_rfsa_adsp_bm2n20_bin",
     filename: "bm2n20.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n20.bin",
@@ -15832,7 +15832,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n21",
+    name: "vendor_lib_rfsa_adsp_bm2n21_bin",
     filename: "bm2n21.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n21.bin",
@@ -15841,7 +15841,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n22",
+    name: "vendor_lib_rfsa_adsp_bm2n22_bin",
     filename: "bm2n22.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n22.bin",
@@ -15850,7 +15850,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n23",
+    name: "vendor_lib_rfsa_adsp_bm2n23_bin",
     filename: "bm2n23.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n23.bin",
@@ -15859,7 +15859,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n24",
+    name: "vendor_lib_rfsa_adsp_bm2n24_bin",
     filename: "bm2n24.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n24.bin",
@@ -15868,7 +15868,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n25",
+    name: "vendor_lib_rfsa_adsp_bm2n25_bin",
     filename: "bm2n25.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n25.bin",
@@ -15877,7 +15877,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n26",
+    name: "vendor_lib_rfsa_adsp_bm2n26_bin",
     filename: "bm2n26.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n26.bin",
@@ -15886,7 +15886,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n27",
+    name: "vendor_lib_rfsa_adsp_bm2n27_bin",
     filename: "bm2n27.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n27.bin",
@@ -15895,7 +15895,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n31",
+    name: "vendor_lib_rfsa_adsp_bm2n31_bin",
     filename: "bm2n31.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n31.bin",
@@ -15904,7 +15904,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n32",
+    name: "vendor_lib_rfsa_adsp_bm2n32_bin",
     filename: "bm2n32.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n32.bin",
@@ -15913,7 +15913,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n33",
+    name: "vendor_lib_rfsa_adsp_bm2n33_bin",
     filename: "bm2n33.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n33.bin",
@@ -15922,7 +15922,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n34",
+    name: "vendor_lib_rfsa_adsp_bm2n34_bin",
     filename: "bm2n34.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n34.bin",
@@ -15931,7 +15931,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n35",
+    name: "vendor_lib_rfsa_adsp_bm2n35_bin",
     filename: "bm2n35.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n35.bin",
@@ -15940,7 +15940,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n36",
+    name: "vendor_lib_rfsa_adsp_bm2n36_bin",
     filename: "bm2n36.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n36.bin",
@@ -15949,7 +15949,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n37",
+    name: "vendor_lib_rfsa_adsp_bm2n37_bin",
     filename: "bm2n37.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n37.bin",
@@ -15958,7 +15958,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n38",
+    name: "vendor_lib_rfsa_adsp_bm2n38_bin",
     filename: "bm2n38.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n38.bin",
@@ -15967,7 +15967,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n39",
+    name: "vendor_lib_rfsa_adsp_bm2n39_bin",
     filename: "bm2n39.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n39.bin",
@@ -15976,7 +15976,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n40",
+    name: "vendor_lib_rfsa_adsp_bm2n40_bin",
     filename: "bm2n40.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n40.bin",
@@ -15985,7 +15985,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n41",
+    name: "vendor_lib_rfsa_adsp_bm2n41_bin",
     filename: "bm2n41.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n41.bin",
@@ -15994,7 +15994,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n42",
+    name: "vendor_lib_rfsa_adsp_bm2n42_bin",
     filename: "bm2n42.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n42.bin",
@@ -16003,7 +16003,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n43",
+    name: "vendor_lib_rfsa_adsp_bm2n43_bin",
     filename: "bm2n43.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n43.bin",
@@ -16012,7 +16012,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n44",
+    name: "vendor_lib_rfsa_adsp_bm2n44_bin",
     filename: "bm2n44.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n44.bin",
@@ -16021,7 +16021,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n45",
+    name: "vendor_lib_rfsa_adsp_bm2n45_bin",
     filename: "bm2n45.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n45.bin",
@@ -16030,7 +16030,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n46",
+    name: "vendor_lib_rfsa_adsp_bm2n46_bin",
     filename: "bm2n46.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n46.bin",
@@ -16039,7 +16039,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n47",
+    name: "vendor_lib_rfsa_adsp_bm2n47_bin",
     filename: "bm2n47.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n47.bin",
@@ -16048,7 +16048,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n48",
+    name: "vendor_lib_rfsa_adsp_bm2n48_bin",
     filename: "bm2n48.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n48.bin",
@@ -16057,7 +16057,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n49",
+    name: "vendor_lib_rfsa_adsp_bm2n49_bin",
     filename: "bm2n49.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n49.bin",
@@ -16066,7 +16066,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n50",
+    name: "vendor_lib_rfsa_adsp_bm2n50_bin",
     filename: "bm2n50.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n50.bin",
@@ -16075,7 +16075,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n51",
+    name: "vendor_lib_rfsa_adsp_bm2n51_bin",
     filename: "bm2n51.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n51.bin",
@@ -16084,7 +16084,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n52",
+    name: "vendor_lib_rfsa_adsp_bm2n52_bin",
     filename: "bm2n52.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n52.bin",
@@ -16093,7 +16093,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n53",
+    name: "vendor_lib_rfsa_adsp_bm2n53_bin",
     filename: "bm2n53.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n53.bin",
@@ -16102,7 +16102,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n54",
+    name: "vendor_lib_rfsa_adsp_bm2n54_bin",
     filename: "bm2n54.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n54.bin",
@@ -16111,7 +16111,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n55",
+    name: "vendor_lib_rfsa_adsp_bm2n55_bin",
     filename: "bm2n55.bin",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n55.bin",
@@ -16120,7 +16120,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libDspIOProxy_skel",
+    name: "vendor_lib_rfsa_adsp_libDspIOProxy_skel_so",
     filename: "libDspIOProxy_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libDspIOProxy_skel.so",
@@ -16129,7 +16129,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQ6MSFR_manager_skel",
+    name: "vendor_lib_rfsa_adsp_libQ6MSFR_manager_skel_so",
     filename: "libQ6MSFR_manager_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so",
@@ -16138,7 +16138,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpAltPrepV69Skel",
+    name: "vendor_lib_rfsa_adsp_libQnnHtpAltPrepV69Skel_so",
     filename: "libQnnHtpAltPrepV69Skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpAltPrepV69Skel.so",
@@ -16147,7 +16147,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpV69Skel",
+    name: "vendor_lib_rfsa_adsp_libQnnHtpV69Skel_so",
     filename: "libQnnHtpV69Skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpV69Skel.so",
@@ -16156,7 +16156,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libSnpeHtpV68Skel",
+    name: "vendor_lib_rfsa_adsp_libSnpeHtpV68Skel_so",
     filename: "libSnpeHtpV68Skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libSnpeHtpV68Skel.so",
@@ -16165,7 +16165,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libSnpeHtpV69Skel",
+    name: "vendor_lib_rfsa_adsp_libSnpeHtpV69Skel_so",
     filename: "libSnpeHtpV69Skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libSnpeHtpV69Skel.so",
@@ -16174,7 +16174,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libSuperSensor_skel",
+    name: "vendor_lib_rfsa_adsp_libSuperSensor_skel_so",
     filename: "libSuperSensor_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libSuperSensor_skel.so",
@@ -16183,7 +16183,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libVppFrcQnnHtp",
+    name: "vendor_lib_rfsa_adsp_libVppFrcQnnHtp_so",
     filename: "libVppFrcQnnHtp.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so",
@@ -16192,7 +16192,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libVppQnnHtp",
+    name: "vendor_lib_rfsa_adsp_libVppQnnHtp_so",
     filename: "libVppQnnHtp.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libVppQnnHtp.so",
@@ -16201,7 +16201,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcalculator_skel",
+    name: "vendor_lib_rfsa_adsp_libcalculator_skel_so",
     filename: "libcalculator_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libcalculator_skel.so",
@@ -16210,7 +16210,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcvpdsp_2_1",
+    name: "vendor_lib_rfsa_adsp_libcvpdsp_2_1_so",
     filename: "libcvpdsp_2_1.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libcvpdsp_2_1.so",
@@ -16219,7 +16219,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdspCV_skel",
+    name: "vendor_lib_rfsa_adsp_libdspCV_skel_so",
     filename: "libdspCV_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
@@ -16228,7 +16228,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_binning",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_binning_so",
     filename: "libdsp_streamer_binning.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
@@ -16237,7 +16237,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libevadsp_3_0",
+    name: "vendor_lib_rfsa_adsp_libevadsp_3_0_so",
     filename: "libevadsp_3_0.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libevadsp_3_0.so",
@@ -16246,7 +16246,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvadsp",
+    name: "vendor_lib_rfsa_adsp_libfastcvadsp_so",
     filename: "libfastcvadsp.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
@@ -16255,7 +16255,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvdsp_skel",
+    name: "vendor_lib_rfsa_adsp_libfastcvdsp_skel_so",
     filename: "libfastcvdsp_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
@@ -16264,7 +16264,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhalide_hexagon_remote_skel",
+    name: "vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so",
     filename: "libhalide_hexagon_remote_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libhalide_hexagon_remote_skel.so",
@@ -16273,7 +16273,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmobilenet_dsp_frc",
+    name: "vendor_lib_rfsa_adsp_libmobilenet_dsp_frc_so",
     filename: "libmobilenet_dsp_frc.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so",
@@ -16282,7 +16282,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmobilenet_dsp_frc_networks",
+    name: "vendor_lib_rfsa_adsp_libmobilenet_dsp_frc_networks_so",
     filename: "libmobilenet_dsp_frc_networks.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so",
@@ -16291,7 +16291,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libscveT2T_skel",
+    name: "vendor_lib_rfsa_adsp_libscveT2T_skel_so",
     filename: "libscveT2T_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
@@ -16300,7 +16300,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsnpe_dsp_v65_domains_v2_skel",
+    name: "vendor_lib_rfsa_adsp_libsnpe_dsp_v65_domains_v2_skel_so",
     filename: "libsnpe_dsp_v65_domains_v2_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so",
@@ -16309,7 +16309,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsnpe_dsp_v66_domains_v2_skel",
+    name: "vendor_lib_rfsa_adsp_libsnpe_dsp_v66_domains_v2_skel_so",
     filename: "libsnpe_dsp_v66_domains_v2_skel.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so",
@@ -16318,7 +16318,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtracker_6dof_skel_8250",
+    name: "vendor_lib_rfsa_adsp_libtracker_6dof_skel_8250_so",
     filename: "libtracker_6dof_skel_8250.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8250.so",
@@ -16327,7 +16327,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtracker_6dof_skel_8350",
+    name: "vendor_lib_rfsa_adsp_libtracker_6dof_skel_8350_so",
     filename: "libtracker_6dof_skel_8350.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8350.so",
@@ -16336,7 +16336,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvpp_ais_networks",
+    name: "vendor_lib_rfsa_adsp_libvpp_ais_networks_so",
     filename: "libvpp_ais_networks.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libvpp_ais_networks.so",
@@ -16345,7 +16345,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvpp_vqa_networks",
+    name: "vendor_lib_rfsa_adsp_libvpp_vqa_networks_so",
     filename: "libvpp_vqa_networks.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libvpp_vqa_networks.so",
@@ -16354,7 +16354,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvpt_action_recognition",
+    name: "vendor_lib_rfsa_adsp_libvpt_action_recognition_so",
     filename: "libvpt_action_recognition.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition.so",
@@ -16363,7 +16363,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libworker_pool",
+    name: "vendor_lib_rfsa_adsp_libworker_pool_so",
     filename: "libworker_pool.so",
     owner: "motorola",
     src: "proprietary/vendor/lib/rfsa/adsp/libworker_pool.so",
