@@ -567,7 +567,6 @@ PRODUCT_PACKAGES += \
     libvideooptfeature \
     libvideotxr \
     libvideoutils \
-    libvmmem \
     libvppcommon \
     libvpphcp \
     libvpphvx \
